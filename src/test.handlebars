@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-img-top">
+    <img src="{{spritse.front_default}}" alt="">
+  </div>
+  <div class="card-body">
+    <h2 class="card-title">Ім'я: </h2>
+    <p class="card-text">Вага: </p>
+    <p class="card-text">Зріст: </p>
+
+    <p class="card-text"><b>Вміння</b></p>
+    <ul class="list-group">  
+      {{#each abilities}} 
+      <li class="list-group-item">{{abilities.name}}</li>
+      {{/each}} 
+    </ul>
+  </div>
+</div>
